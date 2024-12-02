@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event page</title>
+    <style>
+        body {
+            background-color: rgb(22, 54, 74);
+            background-size: cover;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .form-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 500px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-box form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-right: 20px;
+        }
+
+        .form-box input[type="text"], 
+        .form-box input[type="email"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            
+        }
+
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-buttons input[type="submit"], 
+        .form-buttons input[type="reset"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(190, 104, 28);
+            color: white;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .form-buttons input[type="submit"]:hover, 
+        .form-buttons input[type="reset"]:hover {
+            background-color: rgb(115, 60, 18);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>EVENT REGISTRATION</h1>
+    </center>
+    <hr color="black">
+    <marquee style="background-color: rgb(143, 80, 25);">Welcome All! &nbsp;&nbsp;&nbsp;
+        <a href="https://www.youtube.com/watch?v=DdlTvyQl5ws">
+            You can also become an Entrepreneur!
+        </a>
+    </marquee>
+    <hr color="black">
+    <div class="content">i
+        <h1><b>GLOBAL ENTREPRENEUR SUMMIT!</b></h1>
+        <h3>Register below to be part of the summit!</h3>
+    </div>
+    <div class="form-box">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter fullname">
+            
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" placeholder="Your age">
+            
+            <label for="Contact">Contact</label>
+            <input type="text" id="Contact" name="Contact" placeholder="With country code">
+            
+            <label for="Residence">Residence</label>
+            <input type="text" id="Residence" name="Residence" placeholder="State/City">
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Ex : example@gmail.com">
+            
+            <div class="form-buttons">
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="Reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
